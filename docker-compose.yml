@@ -1,0 +1,36 @@
+version : '2'
+services:
+#    postgres:
+#        image:  postgres:latest
+#        environment:
+#            POSTGRES_USER: pahadi
+#            POSTGRES_PASSWORD: pahadi_bhaiyon
+#            POSTGRES_DB: pahadi_auth
+#            PGPORT: 5432
+#        ports:
+#            - "5432:5432"
+#        volumes:
+#            - postgres-data:/admin_test
+
+    elasticsearch:
+        image: elasticsearch:7.6.2
+        ports:
+            - "9200:9200"
+        container_name: elasticsearch
+        environment:
+            - xpack.security.enabled=false
+            - discovery.type=single-node
+            - cluster.name=mangalo-es-cluster
+    mangalo-backend-service:
+        image: mangalo/backend-service:version-15
+        ports:
+            - "8004:8004"
+        environment:
+            PROFILE: "uat"
+        mem_limit: 370M
+        mem_reservation: 30M
+        depends_on:
+            - elasticsearch
+
+#volumes:
+#    postgres-data:

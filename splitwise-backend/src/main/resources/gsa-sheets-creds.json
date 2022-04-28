@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mangalo-051419",
+  "private_key_id": "1ff3a87e1553177556f43bd0cf87f6a2c7c4d81e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDAqrjl2F6Cwl4P\niMhdnbL+4ehFwTSoCHpgMRJ6HN4bJuAPjcUzl0xBlvUrGUd88m40NFgy0DvS4YZM\nTX1KWOiwbxakwYWU7FOFIHPqErmJdNK6PCaHNLnBch5XKc7gW4BNVSvehM8XiJrf\n45E2zXRiT4wdcElnu54Lup41w3lHlr6MO160YwT6OImqC+TTjPlQcgemR1mAQewR\npQxvrkQLaC0mDZAlN/NoVM0vqbAh4+9iZoB4uHKpLkMurGQSKf6/CT8+qrQXGB3S\nDR6ONzSNtE3zOSY14U90LkPnKQS4uRmZG8xs3zxP/CLRPAhPdQWcXL7+MICHU8wW\nFzhUD9p1AgMBAAECggEABN+cpzW6qEiV3AM7/EA7sZ5Rw4fwVsrGG65KFxwpUxr/\n4mzV3uj2FRemMnWkfQjd2ES1sW1aggpR3Ra9s1Z95k6dDkRV5m826qBoRjS8jDlQ\nBkV0vQlMpJPIKDDGyp6N54bewfVujpwWPNETEIWQatczxl/bf3v7srTBAT+lTvX6\nMpyLMsG66KlnzqSVDdzd27EyWuLbKL2sf0/+3JQClX2VKEYhG4A0jp4DFURl07RT\nWPEv4rWXYgK3+qA53XjqVgbqd7XOflKmvenEwGZK4Qr9JedUwZAA3/Rkp0CfNDzk\nV0jjGWiKX3qeoq0cAwUTa7RksNolab/kyQdfsR73qQKBgQDpXdRRV9vrTvXtzUar\nzGEokLPm5IX66pLNdFqgUdPL/K31hzL8weyefo6u7BRpaT9gluvq0enJ5WJZDqYW\nIk8ogS90RgA/SQtOfj2//rl8Gxh3rxYboY16MnMiylQ7GrHJp3BhguZfI3/DkrtJ\n6QCaWLiVsA/tXtaC1Uo+UpPgDQKBgQDTWmBw9WHRwv5HsVEGdkEhd1jRLQyHiAEp\nClETCjjz6D/jjr/NFaWVuO0KkfUVSgLxWsfwqciVciDF+Yp0vpaSTZA1qQ4vI4Co\neq9qlG0JvWj2cSfD6EGymDT0dgIoL7b/nXjcaQEyuQ2rXoIuiEKz9KRynqWmNRD9\nSZQTN3hiCQKBgQCIc4Shy22buR+zXEPmUCq/PVzztMtiW6Za253h//aHX8eXuOXn\nRLzGL9neDcwhlpioMZbgRr0cgDNxP099wbHnTSIiKowadOtXihkxGg/6sR0tXgLf\nRSckPDt2LDf0Fze9YVokqhVpq6gZAsLgBI2Fsjq7y6aEdN+YwH4Y0tAEQQKBgQCx\nFA6rdZwggExFyvWFAX0uSe07TJAr2bKHLSKiXjU7fgJRaR+f95wFZqwL6CA8VwdC\nKnpMVCQ/uiBlXt83Uxuatqu1mc/NhORdxHTGSldVCsIvgLz9cdHhjY8IpvrFqryb\nS9ega8XaNpuSUhumWvnwBm/lrLBDIkD6xjPvKdGN6QKBgFDB7NNJwiE7p63Tv3AK\n/hTfs2UdXd61BX5HHrNrXd+5zDyOW7Xn4REI9Pp95V20J5sDC0H/rDQYJ/UN+fVu\nYxzgUHXmb7tOEbi2FVvFN88h3cyduWAKDeGLHOoGxaYgS4FjpoBhJzfBztgMo5Hx\nizJ/0vFB3waNrL9a27rikZnS\n-----END PRIVATE KEY-----\n",
+  "client_email": "mangalo-sa-sheets@mangalo-051419.iam.gserviceaccount.com",
+  "client_id": "107384531976132564245",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mangalo-sa-sheets%40mangalo-051419.iam.gserviceaccount.com"
+}
