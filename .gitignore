@@ -11,3 +11,4 @@ target/
 .factorypath
 .json
 *.env
+resources
