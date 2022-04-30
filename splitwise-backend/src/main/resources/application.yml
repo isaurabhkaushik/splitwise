@@ -1,6 +1,6 @@
 spring:
   application:
-    name: mangalo-service
+    name: splitwise-service
 
     #profiles:
     # active: uat
@@ -21,7 +21,7 @@ spring:
       max-request-size: 5MB
 
 server:
-  port: 8004
+  port: 8080
 
 management:
   endpoints:
@@ -32,18 +32,17 @@ management:
   endpoint:
     health:
       show-details: always
-
 security:
   basic:
     enable: false
 
-  jwt:
-    uri: /auth/**
-    header: Authorization
-    prefix: Bearer
-    expiration: 432000
-    secret: JwtSecretKey
-    refreshExpiration: 864000
+  #  jwt:
+#    uri: /auth/**
+#    header: Authorization
+#    prefix: Bearer
+#    expiration: 432000
+#    secret: JwtSecretKey
+#    refreshExpiration: 864000
 
   otp:
     enabled: false
@@ -52,9 +51,9 @@ security:
       start: 30
       increment: 10
 
-  service:
-    username: d245ef53-5ad5-4216-9c56-89fe0f8302a0
-    password: ef919ae4-b893-4969-b782-57978180ad33
+#  service:
+#    username: d245ef53-5ad5-4216-9c56-89fe0f8302a0
+#    password: ef919ae4-b893-4969-b782-57978180ad33
 
 aws:
   s3:
@@ -66,7 +65,7 @@ aws:
 logging:
   level:
     root: info
-    sql: info
+    sql: debug
 
 es:
   url: localhost:9200
